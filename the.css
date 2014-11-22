@@ -1,0 +1,47 @@
+body {
+  background: #8A0917;
+}
+
+.wrap {
+  height: 50%;
+  margin-top: 25%;
+  width: 50%;
+  position: relative;
+}
+
+.animation-target {
+  width: 100px;
+  height: 100px;
+  margin-left: -100px;
+  margin-top: 25px;
+  /*-webkit-animation: animation 3500ms linear both;
+  animation: animation 3500ms linear;*/
+  -webkit-animation-timing-function: ease-out; /* Chrome, Safari, Opera */
+    animation-timing-function: ease-out;
+}
+
+.sakata {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Generated with Bounce.js. Edit at http://goo.gl/aesEoV */
+
+@-webkit-keyframes animation { 
+  0% {
+    -webkit-transform: translate(, 0%);
+  }
+  14% {
+    -webkit-transform: translate(135px, -120px);
+  }
+
+  100% {
+    -webkit-transform: translate(135px, -120px);
+  }
+}
+
+@keyframes animation { 
+  
+}
+
